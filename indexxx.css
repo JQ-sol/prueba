@@ -1,0 +1,195 @@
+header#home {
+    text-align: center;
+    color: #fff;
+    background-image: url(img/fragancias.jpg);     
+    height: 0;
+    padding: 0; 
+    padding-bottom: 55%; 
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header#homes {
+    text-align: center;
+    color: #fff;
+    background-image: url(img/quienes.jpg);     
+    height: 0;
+    padding: 0; 
+    padding-bottom: 40%; 
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header#homess {
+    text-align: center;
+    color: #fff;
+    background-image: url(img/prizan.jpg);     
+    height: 0;
+    padding: 0; 
+    padding-bottom: 4%; 
+    background-position: center center;
+    background-size: 180%;
+    background-repeat: no-repeat;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    font-size: 30px;
+    height: auto; /*aca ensancho el contenedor*/
+    background: #FFB6C1;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.navbar {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+    background: #FFB6C1;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: auto;
+    max-height: 80px;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente el menú */
+    align-items: center; /* Centrar verticalmente el contenido dentro del navbar */
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    justify-content: center; 
+}
+
+.nav-link, .drop-down li {
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #E06699;
+}
+
+.drop-down {
+    position: absolute;
+    padding: 0.5rem 0;
+    margin: 0.5rem -0.5rem;
+    background: antiquewhite;
+    color: black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    font-size: 12px;
+    display: none;
+}
+
+.nav-link:hover {
+    background-color: black;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.services:hover .drop-down {
+    display: block;
+}
+
+.services a {
+    display: flex;
+    align-items: center;
+}
+
+.services .dropdown-icon {
+    font-size: 18px;
+    position: relative;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out all;
+}
+
+.services:hover .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+.drop-down li:hover {
+    background: black;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+
+/* Section Comprando */
+section#comprando {
+    background-color: #ffe6e6; /* Fondo suave */
+    padding: 40px;
+    border-left: 6px solid #F1889B; /* Línea decorativa en el borde izquierdo */
+    border-radius: 8px;
+    margin: 30px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    margin-top:  0;
+    margin-bottom:  0;
+}
+
+section#comprando h3 {
+    color: #000;
+    font-size: 30px; /* Tamaño del título */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #F1889B;
+    padding-bottom: 10px;
+}
+
+section#comprando p, section#comprando li {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+section#comprando ul {
+    margin-left: 20px;
+    list-style-type: square; /* Cambiar el estilo de la lista */
+}
+
+section#comprando ul li {
+    margin-bottom: 12px; /* Espaciado entre elementos de la lista */
+}
+
+section#comprando a#volver {
+    display: inline-block;
+    background-color: #4682B4;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+section#comprando a#volver:hover {
+    background-color: #315D8A;
+    color: white;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #191B1C;
+    color: #fff;
+    padding: 70px; /* Espacio interno */
+    margin-top: 0px; /* Espacio arriba del footer */
+    text-align: left; /* Alinea el texto a la izquierda */
+    padding-left: 20px; /* Agrega un poco de espacio a la izquierda */
+ margin-bottom: 0px; /* Espacio arriba del footer */
+}
